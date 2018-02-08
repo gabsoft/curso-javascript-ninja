@@ -75,7 +75,7 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function funcao3(x, y, z) {
-if( x && y && z){
+if( x && y && z && x != 0 && y != 0 && z != 0){
 return (x+y)*z;
 } else if (x && y && !z){
   return (x+y);
