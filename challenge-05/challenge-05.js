@@ -3,7 +3,7 @@ Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
 // 
-var array1 = [1, "Gabriel", true, 32, "Almeida];
+var array1 = [1, "Gabriel", true, 32, "Almeida"];
              
 
 /*
