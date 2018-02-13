@@ -2,17 +2,25 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-// ?
+// 
+var array1 = [1, "Gabriel", true, 32, "Almeida];
+             
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
-// ?
+//
+function myFunction(arg){
+              return arg;
+              }
+
+          
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
 // ?
+myFunction(array1)[1];
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
@@ -21,18 +29,20 @@ no primeiro parâmetro. O índice usado para retornar o valor, deve ser o númer
 segundo parâmetro.
 */
 // ?
-
+function myFunction2(arr, n){
+  return arr[n];
+}
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
 // ?
-
+var array2 = [1, "Gabriel", true, 32.5, obj{nome: "Jeferson", carro: "I30"}];
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
 // ?
-
+myFunction2(array2, 3);
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
 livro. Dentro dessa função, declare uma variável que recebe um objeto com as
